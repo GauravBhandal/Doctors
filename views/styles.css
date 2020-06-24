@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+*navbar{
+    height: 100px;
+    background-color: red;
+    position: fixed;
+}
+navbar-main{
+    float: right;
+    margin: 10px;
+}
+

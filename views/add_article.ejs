@@ -109,8 +109,9 @@ a:hover{
             body
         };
 
-        $.post('/article/add', data, function() {
-            console.log('Server received our data');
+        $.post('/article/add', data, function(data) {
+            console.log("fui23nf")
+            window.location = "/"
         })
 
     })

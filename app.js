@@ -1,3 +1,4 @@
+// import required modules
 const express = require("express");
 const authRouter = require("./routes/auth-routes");
 const profileRouter = require("./routes/profile-routes");
